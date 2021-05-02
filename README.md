@@ -1,1 +1,1 @@
-# nerasa-talents
+# Talent Generator
