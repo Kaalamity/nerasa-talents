@@ -8,19 +8,19 @@
             {
                 "talentName": "Street Smarts",
                 "active": false,
-                "description": "",
+                "description": "Remove SETB per rank of Street Smarts from Streetwise or checks.",
                 "bottomConnection": true,
                 "rightConnection": false
             }, {
                 "talentName": "Black Market Contacts",
-                "active": false,
-                "description": "",
+                "active": true,
+                "description": "When purchasing or selling illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost or reducing the selling price by 50 percent of base cost per reduction.",
                 "bottomConnection": false,
                 "rightConnection": false
             }, {
                 "talentName": "Indistinguishable",
                 "active": false,
-                "description": "",
+                "description": "Upgrade difficulty of checks to identify character once per rank of Indistinguishable.",
                 "bottomConnection": false,
                 "rightConnection": false
             }, {
@@ -33,15 +33,15 @@
         ],
         [
             {
-                "talentName": "Black Market Contacts",
-                "active": false,
-                "description": "",
+                "talentName": "Stalker",
+                "active": true,
+                "description": "Add BOOS per rank of Stalker to all Stealth and Coordination checks.",
                 "bottomConnection": true,
                 "rightConnection": true
             }, {
                 "talentName": "Dodge",
-                "active": false,
-                "description": "",
+                "active": true,
+                "description": "When targeted by combat check, may perform a Dodge incidental to suffer a number of strain no greater than ranks of Dodge, then upgrade the difficulty of the check by that number.",
                 "bottomConnection": true,
                 "rightConnection": true
             }, {
@@ -53,7 +53,7 @@
             }, {
                 "talentName": "Hidden Storage",
                 "active": false,
-                "description": "",
+                "description": "Gain hidden storage in vehicles or equipment that holds items with total encumbrance equal to ranks in Hidden Storage.",
                 "bottomConnection": true,
                 "rightConnection": false
             }
@@ -62,7 +62,7 @@
             {
                 "talentName": "Stalker",
                 "active": false,
-                "description": "",
+                "description": "Add BOOS per rank of Stalker to all Stealth and Coordination checks.",
                 "bottomConnection": true,
                 "rightConnection": true
             }, {
@@ -73,14 +73,14 @@
                 "rightConnection": true
             }, {
                 "talentName": "Rapid Reaction",
-                "active": false,
-                "description": "",
+                "active": true,
+                "description": "Suffer a number of strain to add an equal number of SUCC to initiative checks. Strain suffered cannot exceed ranks in Rapid Reaction.",
                 "bottomConnection": false,
                 "rightConnection": true
             }, {
                 "talentName": "Shortcut",
                 "active": false,
-                "description": "",
+                "description": "During a chase; add BOOS per rank in Shortcut to any checks made to catch or escape an opponent.",
                 "bottomConnection": true,
                 "rightConnection": false
             }
@@ -101,13 +101,13 @@
             }, {
                 "talentName": "Street Smarts",
                 "active": false,
-                "description": "",
+                "description": "Remove SETB per rank of Street Smarts from Streetwise or checks.",
                 "bottomConnection": true,
                 "rightConnection": false
             }, {
                 "talentName": "Jump Up",
                 "active": false,
-                "description": "",
+                "description": "Once per round, may stand from seated or prone as an incidental.",
                 "bottomConnection": true,
                 "rightConnection": false
             }
@@ -115,26 +115,26 @@
         [
             {
                 "talentName": "Master of Shadows",
-                "active": false,
+                "active": true,
                 "description": "",
                 "bottomConnection": false,
                 "rightConnection": false
             }, {
                 "talentName": "Dodge",
-                "active": false,
-                "description": "",
+                "active": true,
+                "description": "When targeted by combat check, may perform a Dodge incidental to suffer a number of strain no greater than ranks of Dodge, then upgrade the difficulty of the check by that number.",
                 "bottomConnection": false,
                 "rightConnection": true
             }, {
                 "talentName": "Indistinguishable",
                 "active": false,
-                "description": "",
+                "description": "Upgrade difficulty of checks to identify character once per rank of Indistinguishable.",
                 "bottomConnection": false,
                 "rightConnection": false
             }, {
                 "talentName": "Dedication",
                 "active": false,
-                "description": "",
+                "description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.",
                 "bottomConnection": false,
                 "rightConnection": false
             }
