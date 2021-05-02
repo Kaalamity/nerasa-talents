@@ -15,21 +15,21 @@
             {
                 "talentName": "Grit",
                 "active": false,
-                "description": "",
+                "description": "Gain +1 strain threshold.",
                 "bottomConnection": false,
                 "rightConnection": false
             },
             {
                 "talentName": "Well Rounded",
                 "active": false,
-                "description": "",
+                "description": "Choose any 2 skills. They permanently become class skills.",
                 "bottomConnection": false,
                 "rightConnection": false
             },
             {
                 "talentName": "Toughened",
                 "active": false,
-                "description": "",
+                "description": "Gain +2 wound threshold.",
                 "bottomConnection": true,
                 "rightConnection": false
             }
@@ -38,7 +38,7 @@
             {
                 "talentName": "Researcher",
                 "active": false,
-                "description": "",
+                "description": "May remove b applied to Knowledge checks made to research per ranks of Researcher. Time taken to perform research is reduced by 50% (this bonus does not stack).",
                 "bottomConnection": true,
                 "rightConnection": false
             },
@@ -52,14 +52,14 @@
             {
                 "talentName": "Rapid Recovery",
                 "active": false,
-                "description": "",
+                "description": "When healing strain after an encounter, heal 1 additional strain per rank of Rapid Recovery.",
                 "bottomConnection": true,
                 "rightConnection": false
             },
             {
                 "talentName": "Resolve",
                 "active": false,
-                "description": "",
+                "description": "When a character suffers strain they suffer 1 less to a minimum of one. This does not apply to voluntary strain gain.",
                 "bottomConnection": true,
                 "rightConnection": false
             }
@@ -75,7 +75,7 @@
             {
                 "talentName": "Grit",
                 "active": false,
-                "description": "",
+                "description": "Gain +1 strain threshold.",
                 "bottomConnection": false,
                 "rightConnection": true
             },
@@ -119,7 +119,7 @@
             {
                 "talentName": "Rapid Recovery",
                 "active": false,
-                "description": "",
+                "description": "When healing strain after an encounter, heal 1 additional strain per rank of Rapid Recovery.",
                 "bottomConnection": true,
                 "rightConnection": false
             }
@@ -128,21 +128,21 @@
             {
                 "talentName": "Natural Explorer",
                 "active": false,
-                "description": "",
+                "description": "Once per session, may re-roll any 1 Perception or Investigation check once.",
                 "bottomConnection": false,
                 "rightConnection": true
             },
             {
                 "talentName": "Museum Worthy",
                 "active": false,
-                "description": "",
+                "description": "Once per session, take Museum Worthy action, make a Hard(DIFFDIFFDIFF) Knowledge check to learn new information about a relic, ruin, or piece of history.",
                 "bottomConnection": false,
                 "rightConnection": false
             },
             {
                 "talentName": "Dedication",
                 "active": false,
-                "description": "",
+                "description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.",
                 "bottomConnection": false,
                 "rightConnection": true
             },
