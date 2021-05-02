@@ -8,25 +8,22 @@
             {
                 "talentName": "Keen Eye",
                 "active": false,
-                "description": "",
+                "description": "May choose to remove SETB or gain BOOS on Investigation checks per ranks of Keen Eye.",
                 "bottomConnection": true,
                 "rightConnection": false
-            },
-            {
+            }, {
                 "talentName": "Grit",
                 "active": false,
                 "description": "Gain +1 strain threshold.",
                 "bottomConnection": false,
                 "rightConnection": false
-            },
-            {
+            }, {
                 "talentName": "Well Rounded",
                 "active": false,
                 "description": "Choose any 2 skills. They permanently become class skills.",
                 "bottomConnection": false,
                 "rightConnection": false
-            },
-            {
+            }, {
                 "talentName": "Toughened",
                 "active": false,
                 "description": "Gain +2 wound threshold.",
@@ -38,25 +35,22 @@
             {
                 "talentName": "Researcher",
                 "active": false,
-                "description": "May remove b applied to Knowledge checks made to research per ranks of Researcher. Time taken to perform research is reduced by 50% (this bonus does not stack).",
+                "description": "May remove SETB applied to Knowledge checks made to research per ranks of Researcher. Time taken to perform research is reduced by 50% (this bonus does not stack).",
                 "bottomConnection": true,
                 "rightConnection": false
-            },
-            {
+            }, {
                 "talentName": "Heightened Awareness",
                 "active": false,
-                "description": "",
+                "description": "Allies within close range add BOOS to Perception or Vigilance checks. Engaged allies add BOOSBOOS.",
                 "bottomConnection": true,
                 "rightConnection": true
-            },
-            {
+            }, {
                 "talentName": "Rapid Recovery",
-                "active": false,
+                "active": true,
                 "description": "When healing strain after an encounter, heal 1 additional strain per rank of Rapid Recovery.",
                 "bottomConnection": true,
                 "rightConnection": false
-            },
-            {
+            }, {
                 "talentName": "Resolve",
                 "active": false,
                 "description": "When a character suffers strain they suffer 1 less to a minimum of one. This does not apply to voluntary strain gain.",
@@ -68,28 +62,25 @@
             {
                 "talentName": "Keen Eye",
                 "active": false,
-                "description": "",
+                "description": "May choose to remove SETB or gain BOOS on Investigation checks per ranks of Keen Eye.",
                 "bottomConnection": true,
                 "rightConnection": false
-            },
-            {
+            }, {
                 "talentName": "Grit",
                 "active": false,
                 "description": "Gain +1 strain threshold.",
                 "bottomConnection": false,
                 "rightConnection": true
-            },
-            {
+            }, {
                 "talentName": "Swift",
                 "active": false,
-                "description": "",
+                "description": "Do not suffer usual penalties for moving through difficult terrain.",
                 "bottomConnection": true,
                 "rightConnection": true
-            },
-            {
+            }, {
                 "talentName": "Dodge",
-                "active": false,
-                "description": "",
+                "active": true,
+                "description": "When targeted by combat check, may perform a Dodge incidental to suffer a number of strain no greater than ranks of Dodge, then upgrade the difficulty of the check by that number.",
                 "bottomConnection": true,
                 "rightConnection": false
             }
@@ -97,28 +88,25 @@
         [
             {
                 "talentName": "Diamond in the Rough",
-                "active": false,
-                "description": "",
+                "active": true,
+                "description": "Once per session, take the Diamond in the Rough action. Make a Hard (DIFFDIFFDIFF) Knowledge or Investigation check to learn a new detail about a previously discovered relic, ruin, or treasure.",
                 "bottomConnection": true,
                 "rightConnection": false
-            },
-            {
+            }, {
                 "talentName": "Familiar Sky",
-                "active": false,
-                "description": "",
+                "active": true,
+                "description": "Once per session, may perform a Familiar Sky maneuver; make a Hard (DIFFDIFFDIFF) Knowledge or Survival check to reveal details about the current environment and other useful information.",
                 "bottomConnection": true,
                 "rightConnection": false
-            },
-            {
+            }, {
                 "talentName": "Dodge",
-                "active": false,
-                "description": "",
+                "active": true,
+                "description": "When targeted by combat check, may perform a Dodge incidental to suffer a number of strain no greater than ranks of Dodge, then upgrade the difficulty of the check by that number.",
                 "bottomConnection": true,
                 "rightConnection": false
-            },
-            {
+            }, {
                 "talentName": "Rapid Recovery",
-                "active": false,
+                "active": true,
                 "description": "When healing strain after an encounter, heal 1 additional strain per rank of Rapid Recovery.",
                 "bottomConnection": true,
                 "rightConnection": false
@@ -127,29 +115,26 @@
         [
             {
                 "talentName": "Natural Explorer",
-                "active": false,
+                "active": true,
                 "description": "Once per session, may re-roll any 1 Perception or Investigation check once.",
                 "bottomConnection": false,
                 "rightConnection": true
-            },
-            {
+            }, {
                 "talentName": "Museum Worthy",
-                "active": false,
+                "active": true,
                 "description": "Once per session, take Museum Worthy action, make a Hard(DIFFDIFFDIFF) Knowledge check to learn new information about a relic, ruin, or piece of history.",
                 "bottomConnection": false,
                 "rightConnection": false
-            },
-            {
+            }, {
                 "talentName": "Dedication",
                 "active": false,
-                "description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.",
+                "description": "Gain +ya1 to a single characteristic. This cannot bring a characteristic above 6.",
                 "bottomConnection": false,
                 "rightConnection": true
-            },
-            {
+            }, {
                 "talentName": "Disorient",
-                "active": false,
-                "description": "",
+                "active": true,
+                "description": "After hitting with combat check, may spend ADVTADVT to disorient target for number of rounds equal to ranks in Disorient.",
                 "bottomConnection": false,
                 "rightConnection": false
             }
