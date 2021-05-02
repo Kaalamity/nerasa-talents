@@ -55,6 +55,20 @@
                     "fileName":"researcher"
                 }
             ]
+        },
+        {
+            "className":"Scoundrel",
+            "folderName":"scoundrel",
+            "specs": [
+                {
+                    "specName":"Assassin",
+                    "fileName":"assassin"
+                },
+                {
+                    "specName":"Thief",
+                    "fileName":"thief"
+                }
+            ]
         }
     ]
 }

@@ -1,0 +1,143 @@
+{
+    "className": "Scoundrel",
+    "specName": "Thief",
+    "classSkills": "Cool, Coordination, Skullduggery, Investigation, Stealth, Streetwise",
+    "specSkills": "Deception, Skullduggery, Stealth, Coordination",
+    "talents": [
+        [
+            {
+                "talentName": "Street Smarts",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            }, {
+                "talentName": "Black Market Contacts",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": false
+            }, {
+                "talentName": "Indistinguishable",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": false
+            }, {
+                "talentName": "Lockbreaker",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Black Market Contacts",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": true
+            }, {
+                "talentName": "Dodge",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": true
+            }, {
+                "talentName": "Grit",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": true
+            }, {
+                "talentName": "Hidden Storage",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Stalker",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": true
+            }, {
+                "talentName": "Grit",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": true
+            }, {
+                "talentName": "Rapid Reaction",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": true
+            }, {
+                "talentName": "Shortcut",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Lockbreaker",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            }, {
+                "talentName": "Natural Rogue",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": true
+            }, {
+                "talentName": "Street Smarts",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            }, {
+                "talentName": "Jump Up",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Master of Shadows",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": false
+            }, {
+                "talentName": "Dodge",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": true
+            }, {
+                "talentName": "Indistinguishable",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": false
+            }, {
+                "talentName": "Dedication",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ]
+    ]
+}
