@@ -1,0 +1,158 @@
+{
+    "className": "Explorer",
+    "specName": "Expeditionary",
+    "classSkills": "Coordination, Deception, Perception, Investigation, Survival, Knowledge: History",
+    "specSkills": "Athletics, Discipline, Knowledge: History, Investigation",
+    "talents": [
+        [
+            {
+                "talentName": "Keen Eye",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Well Rounded",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Toughened",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Researcher",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Heightened Awareness",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Rapid Recovery",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Resolve",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Keen Eye",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Swift",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Dodge",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Diamond in the Rough",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Familiar Sky",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Dodge",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Rapid Recovery",
+                "active": false,
+                "description": "",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Natural Explorer",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Museum Worthy",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Dedication",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Disorient",
+                "active": false,
+                "description": "",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ]
+    ]
+}

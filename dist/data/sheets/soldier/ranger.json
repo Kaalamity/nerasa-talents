@@ -1,0 +1,158 @@
+{
+    "className": "Soldier",
+    "specName": "Ranger",
+    "classSkills": "Brawl, Coercion, Discipline, Melee (Light), Ranged, Perception, Vigilance",
+    "specSkills": "Stealth, Perception, Ranged, Survival",
+    "talents": [
+        [
+            {
+                "talentName": "Quick Draw",
+                "active": true,
+                "description": "Once per round on your character’s turn, they may use this talent to draw or holster an easily accessible weapon or item as an incidental. Quick Draw also reduces a weapon’s Prepare rating by one, to a minimum of one.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Stalker",
+                "active": false,
+                "description": "Add BOOS per rank of Stalker to all Stealth and Coordination checks.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "Gain +1 strain threshold.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Animal Companion",
+                "active": false,
+                "description": "Your character creates a bond with a single animal approved by your GM. \n\nReference the Genesys Core Rulebook, page 77 for more details.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Precise Aim",
+                "active": true,
+                "description": "Once per round, may perform a Precise Aim maneuver. Suffer strain up to ranks in Precise Aim and reduce target's Melee and Ranged Defense by that number.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Quick Strike",
+                "active": false,
+                "description": "Your character adds b for each rank of Quick Strike to any combat checks they make against any targets that have not yet taken their turn in the current encounter. ",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Rapid Reaction",
+                "active": true,
+                "description": "Suffer a number of strain up to ranks in Rapid Reaction to add an equal number of s to a Vigilance or Cool check they make to determine Initiative order.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Forager",
+                "active": false,
+                "description": "Your character removes up to bb from any skill checks they make to find food, water, or shelter. Checks to forage or search the area that your character makes take half the time they would normally. ",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Quick Strike",
+                "active": false,
+                "description": "Your character adds b for each rank of Quick Strike to any combat checks they make against any targets that have not yet taken their turn in the current encounter. ",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Natural Hunter",
+                "active": true,
+                "description": "Once per session, may re-roll any 1 Survival check.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "Gain +1 strain threshold.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Toughened",
+                "active": false,
+                "description": "Gain +2 wound threshold.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Precise Aim",
+                "active": true,
+                "description": "Once per round, may perform a Precise Aim maneuver. Suffer strain up to ranks in Precise Aim and reduce target's Melee and Ranged Defense by that number.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Heightened Awareness",
+                "active": false,
+                "description": "Allies within short range of your character add b to their Perception and Vigilance checks. Allies engaged with your character add bb instead.",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Rapid Reaction",
+                "active": true,
+                "description": "Suffer a number of strain up to ranks in Rapid Reaction to add an equal number of s to a Vigilance or Cool check they make to determine Initiative order.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Shortcut",
+                "active": false,
+                "description": "During a chase, add b per rank in Shortcut to any checks made to catch or escape an opponent.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Targeted Blow",
+                "active": true,
+                "description": "After making a successful attack, may spend 1 Story Point to add Agility in damage to one hit.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Dedication",
+                "active": false,
+                "description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Hunter's Quarry",
+                "active": true,
+                "description": "Take Hunter's Quarry action; make a Average (dd) Survival check to upgrade the ability of all attacks made against a target at long range until the end of the encounter.",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Deadeye",
+                "active": true,
+                "description": "After your character inflicts a Critical Injury with a ranged weapon and rolls the result, your character may suffer 2 strain to use this talent. Then, you may select any Critical Injury of the same severity to apply to the target instead.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ]
+    ]
+}

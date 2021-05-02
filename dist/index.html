@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body onload="init()">        
+        <div id="template_box"></div>
+        <div class="nerasa-t-sheet">
+            <div class="nerasa-t-sheet__header">
+                <div class="nerasa-t-sheet__title-text">
+                    <span id="nerasa-t-sheet__class-name">Class Name: </span><span id="nerasa-t-sheet__spec-name">Specialisation Talent Tree</span>
+                </div>
+                <div class="nerasa-t-sheet__skills"><span class="nerasa-t-sheet__skills-header">Class Skills:</span><span id="nerasa-t-sheet__class-skills"></span></div>
+                <div class="nerasa-t-sheet__skills"><span class="nerasa-t-sheet__skills-header">Specialisation Skills:</span><span id="nerasa-t-sheet__spec-skills"></span></div>
+                <div class="nerasa-t-sheet__sheet-container">
+                    <div class="nerasa-t-sheet__sheet-row" id="row-0">
+                    </div>
+                    <div class="nerasa-t-sheet__sheet-row" id="row-1">
+                    </div>
+                    <div class="nerasa-t-sheet__sheet-row" id="row-2">
+                    </div>
+                    <div class="nerasa-t-sheet__sheet-row" id="row-3">
+                    </div>
+                    <div class="nerasa-t-sheet__sheet-row" id="row-4">
+                    </div>
+                </div>
+                <div class="nerasa-t-sheet__footer-image">
+                    <img src="images/logo@3x.png"/>
+                </div>
+            </div>
+        </div>
+        <div class="nerasa-t-controls no-print">
+            <div class="nerasa-t-controls__header">
+                <span>Sheet Selector</span>
+            </div>
+            <div class="nerasa-t-controls__selector">
+                <div class="nerasa-t-controls__selector-header">Select Class</div>
+                <select name="class-selector" id="class-selector" onchange="classChange()">
+                    <option value="default">No Data Loaded</option>
+                </select>
+            </div>
+            <div class="nerasa-t-controls__selector">
+                <div class="nerasa-t-controls__selector-header">Select Specialisation</div>
+                <select name="spec-selector" id="spec-selector"  onchange="specChange()">
+                    <option value="default">No Data Loaded</option>
+                </select>
+            </div>
+        </div>
+        <div id="eventBitch"></div>
+        <script src="js/main.js"></script>
+    </body>
+</html>

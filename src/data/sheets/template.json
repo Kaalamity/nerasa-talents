@@ -1,0 +1,158 @@
+{
+    "className": "Template",
+    "specName": "Spec",
+    "classSkills": "Skill, Skill, Skill, Skill, Skill, Skill",
+    "specSkills": "Skill, Skill, Skill, Skill",
+    "talents": [
+        [
+            {
+                "talentName":"Template Test",
+                "activation":"Passive",
+                "description":"Test test test.",
+                "bottomConnection":true,
+                "rightConnection":false
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Active",
+                "description":"Test test test.",
+                "bottomConnection":true,
+                "rightConnection":false
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Passive",
+                "description":"Test test test.",
+                "bottomConnection":true,
+                "rightConnection":false
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Active",
+                "description":"Test test test.",
+                "bottomConnection":true,
+                "rightConnection":false
+            }
+        ],
+        [
+            {
+                "talentName":"Template Test",
+                "activation":"Active",
+                "description":"Test test test.",
+                "bottomConnection":true,
+                "rightConnection":true
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Passive",
+                "description":"Test test test.",
+                "bottomConnection":true,
+                "rightConnection":true
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Active",
+                "description":"Test test test.",
+                "bottomConnection":true,
+                "rightConnection":true
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Passive",
+                "description":"Test test test.",
+                "bottomConnection":true,
+                "rightConnection":false
+            }
+        ],
+        [
+            {
+                "talentName":"Template Test",
+                "activation":"Passive",
+                "description":"Test test test.",
+                "bottomConnection":false,
+                "rightConnection":false
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Active",
+                "description":"Test test test.",
+                "bottomConnection":true,
+                "rightConnection":false
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Passive",
+                "description":"Test test test.",
+                "bottomConnection":false,
+                "rightConnection":false
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Active",
+                "description":"Test test test.",
+                "bottomConnection":false,
+                "rightConnection":false
+            }
+        ],
+        [
+            {
+                "talentName":"Template Test",
+                "activation":"Active",
+                "description":"Test test test.",
+                "bottomConnection":false,
+                "rightConnection":false
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Passive",
+                "description":"Test test test.",
+                "bottomConnection":false,
+                "rightConnection":false
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Active",
+                "description":"Test test test.",
+                "bottomConnection":false,
+                "rightConnection":false
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Passive",
+                "description":"Test test test.",
+                "bottomConnection":false,
+                "rightConnection":false
+            }
+        ],
+        [
+            {
+                "talentName":"Template Test",
+                "activation":"Passive",
+                "description":"Test test test.",
+                "bottomConnection":false,
+                "rightConnection":false
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Active",
+                "description":"Test test test.",
+                "bottomConnection":false,
+                "rightConnection":false
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Passive",
+                "description":"Test test test.",
+                "bottomConnection":false,
+                "rightConnection":false
+            },
+            {
+                "talentName":"Template Test",
+                "activation":"Active",
+                "description":"Test test test.",
+                "bottomConnection":false,
+                "rightConnection":false
+            }
+        ]
+    ]
+}

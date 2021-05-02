@@ -1,0 +1,60 @@
+{
+    "classes":[
+        {
+            "className":"Soldier",
+            "folderName":"soldier",
+            "specs": [
+                {
+                    "specName":"Guard",
+                    "fileName":"guard"
+                },
+                {
+                    "specName":"Ranger",
+                    "fileName":"ranger"
+                }
+            ]
+        },
+        {
+            "className":"Socialite",
+            "folderName":"socialite",
+            "specs": [
+                {
+                    "specName":"Performer",
+                    "fileName":"performer"
+                },
+                {
+                    "specName":"Priest",
+                    "fileName":"priest"
+                }
+            ]
+        },
+        {
+            "className":"Tradesperson",
+            "folderName":"tradesperson",
+            "specs": [
+                {
+                    "specName":"Artisan",
+                    "fileName":"artisan"
+                },
+                {
+                    "specName":"Merchant",
+                    "fileName":"merchant"
+                }
+            ]
+        },
+        {
+            "className":"Explorer",
+            "folderName":"explorer",
+            "specs": [
+                {
+                    "specName":"Expeditionary",
+                    "fileName":"expeditionary"
+                },
+                {
+                    "specName":"Researcher",
+                    "fileName":"researcher"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "className": "Tradesperson",
+    "specName": "Merchant",
+    "classSkills": "Discipline, Perception, Investigation, Negotiation, Resilience, Streetwise",
+    "specSkills": "Discipline, Knowledge, Skullduggery, Negotiation",
+    "talents": [
+        [
+            {
+                "talentName": "Sound Investment",
+                "active": false,
+                "description": "At the start of each session, gain 100 Marks for each rank of Sound Investment.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Plausible Deniability",
+                "active": false,
+                "description": "Remove S per rank of Plausible Deniability from Coercion and Deception checks.",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Rapid Recovery",
+                "active": false,
+                "description": "When recovering strain after an encounter, recover 1 additional strain per rank of Rapid Recovery.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "Gain +1 strain threshold.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Rapid Recovery",
+                "active": false,
+                "description": "When recovering strain after an encounter, recover 1 additional strain per rank of Rapid Recovery.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Wheel and Deal",
+                "active": false,
+                "description": "When selling legal goods, the character gains an additional 10% of the original selling price per rank of Wheel and Deal.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Sound Investment",
+                "active": false,
+                "description": "At the start of each session, gain 100 Marks for each rank of Sound Investment.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Wheel and Deal",
+                "active": false,
+                "description": "When selling legal goods, the character gains an additional 10% of the original selling price per rank of Wheel and Deal.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Greased Palms",
+                "active": true,
+                "description": "Before making a social check, may spend up to 50 Marks per rank of Greased Palms to upgrade the ability of the check once for every 50 spent.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Throwing Marks",
+                "active": true,
+                "description": "At the beginning of a session, spend 100 Marks to gain 1 Player Story Point.",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Bought Info",
+                "active": true,
+                "description": "Instead of making a Knowledge check, may take a Bought Info action, spend Marks equal to 50 times the difficulty of the check to pass with one s.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Sound Investment",
+                "active": false,
+                "description": "At the start of each session, gain 100 Marks for each rank of Sound Investment.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Sound Investment",
+                "active": false,
+                "description": "At the start of each session, gain 100 Marks for each rank of Sound Investment.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Toughened",
+                "active": false,
+                "description": "Gain +2 wound threshold.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Master Merchant",
+                "active": true,
+                "description": "Once per round, suffer 2 strain to sell an item for 25% more, buy an item for 25% less.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Know Somebody",
+                "active": true,
+                "description": "Once per session, when attempting to purchase a legally  available item, your character may use this talent to reduce its rarity by one per rank of Know Somebody.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Natural Merchant",
+                "active": true,
+                "description": "Once per session, may re-roll any 1 Streetwise or Negotiate check once.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Intense Focus",
+                "active": true,
+                "description": "Perform an Intense Focus maneuver, suffer 1 strain and upgrade the ability of the next skill check once.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Dedication",
+                "active": false,
+                "description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Sound Investment",
+                "active": false,
+                "description": "At the start of each session, gain 100 Marks for each rank of Sound Investment.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ]
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "className": "Explorer",
+    "specName": "Researcher",
+    "classSkills": "Coordination, Deception, Perception, Investigation, Survival, Knowledge: History",
+    "specSkills": "Investigation, Knowledge: History,  Knowledge: Sciences, Discipline",
+    "talents": [
+        [
+            {
+                "talentName": "Respected Scholar",
+                "active": false,
+                "description": "May downgrade the difficulty of checks to interact with institutes of learning by one level per rank of Respected Scholar.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Linguist",
+                "active": false,
+                "description": "Add a BOOS when attempting to communicate with creatures that do not speak the language of, per ranks of Linguist.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "Gain +1 strain threshold.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Resolve",
+                "active": false,
+                "description": "When a character suffers strain they suffer 1 less to a minimum of one. This does not apply to voluntary strain gain.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Researcher",
+                "active": false,
+                "description": "May remove b applied to Knowledge checks made to research per ranks of Researcher. Time taken to perform research is reduced by 50% (this bonus does not stack).",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Respected Scholar",
+                "active": false,
+                "description": "May downgrade the difficulty of checks to interact with institutes of learning by one level per rank of Respected Scholar.",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Resolve",
+                "active": false,
+                "description": "When a character suffers strain they suffer 1 less to a minimum of one. This does not apply to voluntary strain gain.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Researcher",
+                "active": false,
+                "description": "May remove b applied to Knowledge checks made to research per ranks of Researcher. Time taken to perform research is reduced by 50% (this bonus does not stack).",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Translator",
+                "active": false,
+                "description": "Remove b per ranks in Translator from checks to translate writing or break ciphered code. Decrease difficulty of checks to translate or decode writing by 1",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Knowledge Specialisation",
+                "active": false,
+                "description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend t result to gain additional s equal to ranks in Knowledge Specialisation. ",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Natural Scholar",
+                "active": false,
+                "description": "Once per session, may re-roll any 1 Knowledge skill check.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Well Rounded",
+                "active": false,
+                "description": "Choose any 2 skills. They permanently become class skills.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Knowledge Specialisation",
+                "active": false,
+                "description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend t result to gain additional s equal to ranks in Knowledge Specialisation. ",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Intense Focus",
+                "active": false,
+                "description": "Perform an Intense Focus maneuver, suffer 1 strain and upgrade the ability of the next skill check once.",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Confidence",
+                "active": false,
+                "description": "May decrease the difficulty of Cool checks to avoid fear by 1 per rank of Confidence.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Resolve",
+                "active": false,
+                "description": "When a character suffers strain they suffer 1 less to a minimum of one. This does not apply to voluntary strain gain.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Stroke of Genius",
+                "active": false,
+                "description": "Once per session, make one skill check using Intellect rather than the characteristic linked to that skill.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Mental Fortitude",
+                "active": false,
+                "description": "The character may spend 1 Story Point to ignore the effects of one Critical Injury related to Intellect or Cunning until the end of the encounter.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Dedication",
+                "active": false,
+                "description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Toughened",
+                "active": false,
+                "description": "Gain +2 wound threshold.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ]
+    ]
+}

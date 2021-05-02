@@ -1,0 +1,158 @@
+{
+    "className": "Socialite",
+    "specName": "Priest",
+    "classSkills": "Charm, Cool, Deception, Discipline, Knowledge, Leadership",
+    "specSkills": "Charm, Discipline, Core Magic, Knowledge",
+    "talents": [
+        [
+            {
+                "talentName": "Researcher",
+                "active": false,
+                "description": "May remove b applied to Knowledge checks made to research per ranks of Researcher. Time taken to perform research is reduced by 50% (this bonus does not stack).",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Kill with Kindness",
+                "active": false,
+                "description": "Remove b per rank of Kill with Kindness from all Charm and Leadership checks.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Confidence",
+                "active": false,
+                "description": "May decrease the difficulty of Cool checks to avoid fear by 1 per rank of Confidence.",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Capacitry",
+                "active": false,
+                "description": "Gain +1 infusion threshold.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Confidence",
+                "active": false,
+                "description": "May decrease the difficulty of Cool checks to avoid fear by 1 per rank of Confidence.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "Gain +1 strain threshold.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Capacity",
+                "active": false,
+                "description": "Gain +1 infusion threshold.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Healer",
+                "active": true,
+                "description": "When targeted in combat, may perform a Dodge incidental. Suffer strain no greater than ranks in Dodge to upgrade the difficulty of the attack by that number.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Researcher",
+                "active": false,
+                "description": "May remove b applied to Knowledge checks made to research per ranks of Researcher. Time taken to perform research is reduced by 50% (this bonus does not stack).",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Inspiring Rhetoric",
+                "active": true,
+                "description": "Make an Average (dd) Leadership check to perform the Inspiring Rhetoric action. One ally for each s, in short range, recovers 1 strain. Spend a for 1 affected ally to recover 1 additional strain.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Improved Augment",
+                "active": true,
+                "description": "Make an Average (dd) Intimidate check to perform the Scathing Tirade action. For each s generated, one enemy within short range suffers 1 strain. For each a, one affected enemy suffers 1 additional strain.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Incantation",
+                "active": true,
+                "description": "May take the Incantation maneuver to gain a B to any Magic Action. This maneuver may be taken multiple times.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Improved Inspiring  Rhetoric",
+                "active": false,
+                "description": "Each ally affected by Inspiring Rhetoric gains B on all skill checks for a number of rounds equal to ranks in Leadership.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Intense Presence",
+                "active": true,
+                "description": "Once per Encounter, may take the Intense Presence action to restore strain equal to ranks in Presence.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Capacity",
+                "active": false,
+                "description": "Gain +1 infusion threshold.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Healer",
+                "active": true,
+                "description": "When performing the Heal Magic Action to restore Wounds, the target is healed for an additional wound per ranks of Healer.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Natural Orator",
+                "active": true,
+                "description": "Once per session, may re-roll any 1 Charm or Deception skill check.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Dedication",
+                "active": false,
+                "description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Greater Restore",
+                "active": true,
+                "description": "Once per session, you may Spend 1 Story point to add ranks in Core Magic to the number of wounds healed by the Heal Magic Action.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Master Healer",
+                "active": true,
+                "description": "Once per round, suffer 2 strain to decrease the difficulty of a Heal Magic Action.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ]
+    ]
+}

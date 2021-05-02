@@ -1,0 +1,280 @@
+@font-face {
+  font-family: "martel regular";
+  src: url(../fonts/martel-regular.otf); }
+
+@font-face {
+  font-family: "martel bold";
+  src: url(../fonts/martel-bold.otf); }
+
+@font-face {
+  font-family: "martel heavy";
+  src: url(../fonts/martel-heavy.otf); }
+
+@font-face {
+  font-family: "ursaserif bold";
+  src: url(../fonts/URSB.TTF); }
+
+@font-face {
+  font-family: "eote";
+  src: url(../fonts/EotESymbol-Regular-PLUS.otf); }
+
+@font-face {
+  font-family: "genesys";
+  src: url(../fonts/Genesys.ttf); }
+
+.nerasa-t-card {
+  font-family: "martel regular";
+  box-sizing: border-box;
+  width: 258px;
+  border: 3px solid black;
+  border-radius: 20px;
+  position: relative; }
+  .nerasa-t-card--active {
+    background-color: #e5dfdc; }
+  .nerasa-t-card--passive {
+    background-color: #e1e2e2; }
+  .nerasa-t-card .nerasa-t-card__background {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    user-select: none; }
+    .nerasa-t-card .nerasa-t-card__background--top {
+      top: 0;
+      height: 100%; }
+    .nerasa-t-card .nerasa-t-card__background--bottom {
+      bottom: 0; }
+    .nerasa-t-card .nerasa-t-card__background .nerasa-t-card__connector {
+      position: absolute;
+      background: #939598;
+      z-index: -1000; }
+      .nerasa-t-card .nerasa-t-card__background .nerasa-t-card__connector--bottom {
+        width: 10px;
+        height: 200px;
+        left: 46%;
+        top: 100%; }
+      .nerasa-t-card .nerasa-t-card__background .nerasa-t-card__connector--right {
+        width: 300px;
+        height: 10px;
+        top: 37px;
+        left: 46%; }
+      .nerasa-t-card .nerasa-t-card__background .nerasa-t-card__connector--hidden {
+        display: none; }
+    .nerasa-t-card .nerasa-t-card__background .nerasa-t-card__accent-top {
+      position: absolute;
+      width: 95px;
+      height: 10px;
+      top: -20px;
+      left: -20px; }
+      .nerasa-t-card .nerasa-t-card__background .nerasa-t-card__accent-top img {
+        width: 100%; }
+    .nerasa-t-card .nerasa-t-card__background .nerasa-t-card__filigree-right {
+      position: absolute;
+      bottom: -10px;
+      right: -27px;
+      width: 40px; }
+      .nerasa-t-card .nerasa-t-card__background .nerasa-t-card__filigree-right img {
+        width: 100%; }
+    .nerasa-t-card .nerasa-t-card__background .nerasa-t-card__filigree-left {
+      position: absolute;
+      bottom: -10px;
+      left: -27px;
+      width: 40px; }
+      .nerasa-t-card .nerasa-t-card__background .nerasa-t-card__filigree-left img {
+        width: 100%; }
+  .nerasa-t-card .nerasa-t-card__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    .nerasa-t-card .nerasa-t-card__content-wrapper .nerasa-t-card__header {
+      font-family: "martel heavy";
+      background: white;
+      border-radius: 20px;
+      border-bottom-right-radius: 0;
+      margin: 10px 10px 3px 10px;
+      display: flex;
+      flex-direction: row;
+      align-content: center; }
+      .nerasa-t-card .nerasa-t-card__content-wrapper .nerasa-t-card__header .nerasa-t-card__rank {
+        border-radius: 100%;
+        height: 30px;
+        width: 30px;
+        border: 3px solid black;
+        background: white; }
+      .nerasa-t-card .nerasa-t-card__content-wrapper .nerasa-t-card__header .nerasa-t-card__talent-name {
+        padding-left: 6px;
+        font-weight: bold;
+        line-height: 2.3; }
+    .nerasa-t-card .nerasa-t-card__content-wrapper .nerasa-t-card__talent-activation {
+      font-family: "martel bold";
+      font-size: 13px;
+      text-align: right;
+      margin-right: 10px;
+      font-weight: bold;
+      padding: 0;
+      opacity: .5; }
+    .nerasa-t-card .nerasa-t-card__content-wrapper .nerasa-t-card__text-block {
+      font-size: 11px;
+      border-left: 3px solid black;
+      border-top: 3px solid black;
+      min-height: 30px;
+      margin: 3px 10px 10px 10px;
+      background: white;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      padding: 5px;
+      text-align: justify; }
+  .nerasa-t-card .nerasa-t-card__cost {
+    font-family: "ursaserif bold";
+    position: absolute;
+    background-image: url(../images/cost-banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    bottom: -37px;
+    right: 0px;
+    height: 34px;
+    color: white;
+    text-align: center;
+    padding-left: 21px;
+    width: 104px;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 1.4; }
+
+#template_box {
+  display: none; }
+
+.nerasa-t-sheet {
+  margin: auto;
+  width: 1210px;
+  min-height: 300px;
+  font-family: "martel regular"; }
+  .nerasa-t-sheet .nerasa-t-sheet__header .nerasa-t-sheet__title-text {
+    font-size: 30px; }
+    .nerasa-t-sheet .nerasa-t-sheet__header .nerasa-t-sheet__title-text #nerasa-t-sheet__class-name {
+      font-family: "martel heavy"; }
+  .nerasa-t-sheet .nerasa-t-sheet__skills {
+    margin-left: 10px;
+    font-size: 18px; }
+    .nerasa-t-sheet .nerasa-t-sheet__skills .nerasa-t-sheet__skills-header {
+      font-family: "martel heavy"; }
+  .nerasa-t-sheet .nerasa-t-sheet__sheet-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: space-evenly; }
+    .nerasa-t-sheet .nerasa-t-sheet__sheet-container .nerasa-t-sheet__sheet-row {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 30px; }
+  .nerasa-t-sheet .nerasa-t-sheet__footer-image {
+    width: 200px;
+    margin-top: 20px;
+    margin: auto; }
+    .nerasa-t-sheet .nerasa-t-sheet__footer-image img {
+      width: 100%; }
+
+.nerasa-t-controls {
+  position: fixed;
+  right: 100px;
+  top: 0px;
+  width: 350px;
+  padding: 30px;
+  background: black;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  font-family: "martel regular";
+  font-weight: bold;
+  color: white; }
+  .nerasa-t-controls .nerasa-t-controls__header {
+    font-size: 20px;
+    font-family: "martel heavy";
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 20px; }
+  .nerasa-t-controls .nerasa-t-controls__selector {
+    line-height: 1.4; }
+  .nerasa-t-controls select {
+    font-family: 'martel regular';
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 2px;
+    width: 300px;
+    margin-bottom: 10px; }
+
+.nerasa-t-editor {
+  width: 1280px;
+  margin: auto;
+  margin-left: 20px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  font-family: "martel regular"; }
+  .nerasa-t-editor .nerasa-t-editor__card {
+    width: 200px;
+    min-height: 150px;
+    position: relative;
+    padding: 20px; }
+    .nerasa-t-editor .nerasa-t-editor__card .editor-text-name {
+      font-family: "martel regular";
+      font-size: 12px; }
+    .nerasa-t-editor .nerasa-t-editor__card .nerasa-t-editor__card-active label {
+      font-size: 12px; }
+    .nerasa-t-editor .nerasa-t-editor__card .nerasa-t-editor__checkbox {
+      position: absolute; }
+      .nerasa-t-editor .nerasa-t-editor__card .nerasa-t-editor__checkbox--bottom {
+        left: 46%;
+        bottom: 2px; }
+      .nerasa-t-editor .nerasa-t-editor__card .nerasa-t-editor__checkbox--right {
+        top: 50%;
+        right: 2px; }
+  .nerasa-t-editor .nerasa-t-editor__row {
+    display: flex;
+    flex-direction: row; }
+
+.nerasa-t-editor-output {
+  position: fixed;
+  right: 100px;
+  top: 20px; }
+  .nerasa-t-editor-output .nerasa-t-editor__details {
+    display: flex;
+    flex-direction: column; }
+    .nerasa-t-editor-output .nerasa-t-editor__details .nerasa-t-editor__names {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .nerasa-t-editor-output .nerasa-t-editor__details .nerasa-t-editor__names input {
+        width: 48.3%; }
+    .nerasa-t-editor-output .nerasa-t-editor__details input {
+      margin-bottom: 5px; }
+  .nerasa-t-editor-output .nerasa-t-editor__controls {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row; }
+
+.nerasa-d {
+  font-family: "eote"; }
+  .nerasa-d--setback {
+    color: black; }
+  .nerasa-d--boost {
+    color: powderblue; }
+  .nerasa-d--difficulty {
+    color: purple; }
+  .nerasa-d--ability {
+    color: green; }
+  .nerasa-d--challenge {
+    color: red; }
+  .nerasa-d--proficiency {
+    color: yellow; }
+
+.nerasa-r {
+  font-family: "genesys"; }
+
+@media print {
+  .no-print, .no-print * {
+    display: none !important; } }

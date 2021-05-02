@@ -1,0 +1,158 @@
+{
+    "className": "Tradesperson",
+    "specName": "Artisan",
+    "classSkills": "Discipline, Perception, Investigation, Negotiation, Resilience, Streetwise",
+    "specSkills": "Crafting Skill, Streetwise, Skullduggery, Negotiation",
+    "talents": [
+        [
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "Gain +1 strain threshold.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Inventor",
+                "active": false,
+                "description": "Remove b or add b from checks made to create new items or modify existing items per ranks of Inventor.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "More With Less",
+                "active": false,
+                "description": "When crafting an item, reduce the material cost of the item by 10% per ranks of More With Less.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Resolve",
+                "active": false,
+                "description": "When a character suffers strain they suffer 1 less to a minimum of one. This does not apply to voluntary strain gain.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Wheel and Deal",
+                "active": false,
+                "description": "When selling legal goods, the character gains an additional 10% of the original selling price per rank of Wheel and Deal.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Knack for the Craft",
+                "active": false,
+                "description": "When crafting an item, reduce the time it takes to craft the item by 10% per ranks of Knack for the Craft.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Inspiration",
+                "active": true,
+                "description": "When a friendly character succeeds on a check, you may spend your Reaction to gain b equal to ranks of Inspiration on your next skill check.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Resolve",
+                "active": false,
+                "description": "When a character suffers strain they suffer 1 less to a minimum of one. This does not apply to voluntary strain gain.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Know Somebody",
+                "active": true,
+                "description": "Once per session, when attempting to purchase a legally  available item, your character may use this talent to reduce its rarity by one per rank of Know Somebody.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Inventor",
+                "active": false,
+                "description": "Remove b or add b from checks made to create new items or modify existing items per ranks of Inventor.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "More With Less",
+                "active": false,
+                "description": "When crafting an item, reduce the material cost of the item by 10% per ranks of More With Less.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Knack for the Craft",
+                "active": false,
+                "description": "When crafting an item, reduce the time it takes to craft the item by 10% per ranks of Knack for the Craft.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Wheel and Deal",
+                "active": false,
+                "description": "When selling legal goods, the character gains an additional 10% of the original selling price per rank of Wheel and Deal.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Master Merchant",
+                "active": true,
+                "description": "Once per round, suffer 2 strain to sell an item for 25% more, buy an item for 25% less.",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Inspiration",
+                "active": true,
+                "description": "When a friendly character succeeds on a check, you may spend your Reaction to gain b equal to ranks of Inspiration on your next skill check.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Natural Artisan",
+                "active": false,
+                "description": "Once per session, may re-roll any 1 Profession Skill check once.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Smooth Talker",
+                "active": true,
+                "description": "When selecting this talent, choose a Social Skill. When making checks with that skill, he may spent t to gain s equal to ranks in Smooth Talker.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Steely Nerves",
+                "active": true,
+                "description": "The character may spend 1 Story Point to ignore the effects of one Critical Injury related to Presence or Willpower until the end of the encounter.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Dedication",
+                "active": false,
+                "description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Master of the Craft",
+                "active": true,
+                "description": "Once per round, suffer 2 strain to decrease the difficulty of a crafting check.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ]
+    ]
+}

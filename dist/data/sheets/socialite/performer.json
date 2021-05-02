@@ -1,0 +1,158 @@
+{
+    "className": "Socialite",
+    "specName": "Performer",
+    "classSkills": "Charm, Cool, Deception, Discipline, Knowledge, Leadership",
+    "specSkills": "Charm, Deception, Streetwise, Knowledge",
+    "talents": [
+        [
+            {
+                "talentName": "Genuine Liar",
+                "active": false,
+                "description": "Add b per ranks of Genuine Liar to all Deception Checks.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Kill with Kindness",
+                "active": false,
+                "description": "Remove b per rank of Kill with Kindness from all Charm and Leadership checks.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "Gain +1 strain threshold.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Confidence",
+                "active": false,
+                "description": "May decrease the difficulty of Cool checks to avoid fear by 1 per rank of Confidence.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Perform",
+                "active": true,
+                "description": "Make a Hard (ddd) Cool or Charm check to begin a performance, with lasts for up to 30 minutes. See the Perform entry in the Talents section of the Setting Booklet for the full details of the Performance Talent.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "Gain +1 strain threshold.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "Gain +1 strain threshold.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Dodge",
+                "active": true,
+                "description": "When targeted in combat, may perform a Dodge incidental. Suffer strain no greater than ranks in Dodge to upgrade the difficulty of the attack by that number.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Acting Lessons",
+                "active": false,
+                "description": "Decrease the difficulty of Perform action by 1.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Inspiring Rhetoric",
+                "active": true,
+                "description": "Make an Average (dd) Leadership check to perform the Inspiring Rhetoric action. One ally for each s, in short range, recovers 1 strain. Spend a for 1 affected ally to recover 1 additional strain.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Scathing Tirade",
+                "active": true,
+                "description": "Make an Average (dd) Intimidate check to perform the Scathing Tirade action. For each s generated, one enemy within short range suffers 1 strain. For each a, one affected enemy suffers 1 additional strain.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Confidence",
+                "active": false,
+                "description": "May decrease the difficulty of Cool checks to avoid fear by 1 per rank of Confidence.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Improved Inspiring  Rhetoric",
+                "active": false,
+                "description": "Each ally affected by Inspiring Rhetoric gains b on all skill checks for a number of rounds equal to ranks in Leadership.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "From the Diaphragm!",
+                "active": false,
+                "description": "All Actions made as part of a maintained Performance, have their effective range increased to Medium.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Acting!",
+                "active": true,
+                "description": "Once per session, Spend 1 Story Point to use Personality in place of normal linked characteristic for any skill.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Improved Scathing Tirade",
+                "active": false,
+                "description": "Enemies affected by Scathing Tirade add b to all skill checks for a number of rounds equal to your character’s ranks in Coercion.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Supreme Inspiring  Rhetoric",
+                "active": true,
+                "description": "Suffer 1 strain to perform Inspiring Rhetoric as a maneuver, rather than action.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Natural Performer",
+                "active": true,
+                "description": "Once per session, may re-roll any 1 Charm or Deception skill check.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Dedication",
+                "active": false,
+                "description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Supreme Scathing Tirade",
+                "active": true,
+                "description": "Suffer 1 strain to perform Scathing Tirade as a maneuver, rather than action.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ]
+    ]
+}
