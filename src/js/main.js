@@ -195,7 +195,7 @@ const stringToHTML = (str) => {
 const diceParse = (str) => {
     //Gonna take this string and replace all the placeholder symbols with the actual dice spans
     //All dice icons
-    let setbackHTML = "<span class=\"nerasa-d nerasa-d--setback\">s</span>"; //SETB
+    let setbackHTML = "<span class=\"nerasa-d nerasa-d--setback\">b</span>"; //SETB
     let boostHTML = "<span class=\"nerasa-d nerasa-d--boost\">b</span>"; //BOOS
     let difficultyHTML = "<span class=\"nerasa-d nerasa-d--difficulty\">d</span>"; //DIFF
     let abilityHTML = "<span class=\"nerasa-d nerasa-d--ability\">s</span>"; //ABIL
