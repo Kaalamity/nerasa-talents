@@ -1,0 +1,158 @@
+{
+    "className": "Leader",
+    "specName": "Commander",
+    "classSkills": "Charm, Coercion, Cool, Discipline, Leadership, Perception",
+    "specSkills": "Melee (Light), Leadership, Discipline, Vigilance",
+    "talents": [
+        [
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "Gain +2 wound threshold.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Confidence",
+                "active": false,
+                "description": "May decrease the difficulty of Cool checks to avoid fear by 1 per rank of Confidence.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Toughened",
+                "active": false,
+                "description": "Gain +2 wound threshold.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Nobody's Fool",
+                "active": false,
+                "description": "May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Field Commander",
+                "active": true,
+                "description": "Make an Average (DIFFDIFF) Leadership check. If successful, a number of allies equal to your character’s Presence may immediately suffer 1 strain to perform one maneuver (out of turn).\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Command",
+                "active": false,
+                "description": "Add BOOS per rank of Command when making Leadership checks. Affected targets add BOOS to Discipline checks for next 24 hours.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Rally",
+                "active": false,
+                "description": "When in a Combat Encounter, all allies within Short range gain BOOS to all combat checks per rank of Rally.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Confidence",
+                "active": false,
+                "description": "May decrease the difficulty of Cool checks to avoid fear by 1 per rank of Confidence.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Command",
+                "active": false,
+                "description": "Add BOOS per rank of Command when making Leadership checks. Affected targets add BOOS to Discipline checks for next 24 hours.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "Gain +2 wound threshold.\n",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Toughened",
+                "active": false,
+                "description": "Gain +2 wound threshold.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Nobody's Fool",
+                "active": false,
+                "description": "May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Improved Field Commander",
+                "active": true,
+                "description": "Field Commander action affects allies equal to double Presence, and may spend TRIU to allow allies to suffer 1 strain and perform 1 free Action instead.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Enduring",
+                "active": true,
+                "description": "Each rank of Enduring increases your character’s soak value by one.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Rally",
+                "active": false,
+                "description": "When in a Combat Encounter, all allies within Short range gain BOOS to all combat checks per rank of Rally.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Inspiring Rhetoric",
+                "active": true,
+                "description": "Make an Average (DIFFDIFF) Leadership check to perform the Inspiring Rhetoric action. One ally for each s, in short range, recovers 1 strain. Spend a for 1 affected ally to recover 1 additional strain.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Heroic Fortitude",
+                "active": true,
+                "description": "May spend 1 Story Point to ignore effects of Critical Injuries on Brawn, Intellect or Presence checks until the end of the encounter.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Confidence",
+                "active": false,
+                "description": "May decrease the difficulty of Cool checks to avoid fear by 1 per rank of Confidence.\n",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Natural Leader",
+                "active": true,
+                "description": "Once per session, may re-roll any 1 Leadership check.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Dedication",
+                "active": false,
+                "description": "Spend 1 Story Point to ignore effects of Critical Injuries on Willpower or Presence checks until the end of the encounter.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ]
+    ]
+}

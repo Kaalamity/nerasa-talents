@@ -1,0 +1,158 @@
+{
+    "className": "Scoundrel",
+    "specName": "Assassin",
+    "classSkills": "Cool, Coordination, Skullduggery, Investigation, Stealth, Streetwise",
+    "specSkills": "Melee (Light), Deception, Sneak, Alchemy",
+    "talents": [
+        [
+            {
+                "talentName": "Envenom",
+                "active": false,
+                "description": "May coat a weapon with poison as a incidental, rather than an maneuver.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Stalker",
+                "active": false,
+                "description": "Add BOOS per rank of Stalker to all Stealth and Coordination checks.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Nobody's Fool",
+                "active": false,
+                "description": "May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Indistinguishable",
+                "active": false,
+                "description": "Upgrade difficulty of checks to identify character once per rank of Indistinguishable.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Potent Brews",
+                "active": false,
+                "description": "When creating poisons or potions, Alchemy checks gain automatic ADVT equal to ranks in Potent Brews.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Precise Aim",
+                "active": true,
+                "description": "Once per round, may perform a Precise Aim maneuver. Suffer strain up to ranks in Precise Aim and reduce target's Melee and Ranged Defense by that number.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Stalker",
+                "active": false,
+                "description": "Add BOOS per rank of Stalker to all Stealth and Coordination checks.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Convincing Demeanor",
+                "active": false,
+                "description": "Remove SETB per rank of Convincing Demeanor from Deception or Skullduggery checks.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Poisoneer",
+                "active": false,
+                "description": "Add BOOS per rank of Stalker to all Stealth and Coordination checks.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Anatomy Lessons",
+                "active": true,
+                "description": "After making a successful attack, may spend 1 Story Point to add damage equal to Intellect to one hit.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Lethal Blows",
+                "active": false,
+                "description": "Add +10 per rank of Lethal Blows to any Critical Injury result inflicted on opponents.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Indistinguishable",
+                "active": false,
+                "description": "Upgrade difficulty of checks to identify character once per rank of Indistinguishable.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Natural Alchemist",
+                "active": true,
+                "description": "Once per session, may re roll 1 Alchemy check, without expending any extra Alchemical Ingredients. ",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Lethal Blows",
+                "active": false,
+                "description": "Add +10 per rank of Lethal Blows to any Critical Injury result inflicted on opponents.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Stalker",
+                "active": false,
+                "description": "Add BOOS per rank of Stalker to all Stealth and Coordination checks.",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Convincing Demeanor",
+                "active": false,
+                "description": "Remove SETB per rank of Convincing Demeanor from Deception or Skullduggery checks.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Master Poisoneer",
+                "active": true,
+                "description": "Poisons created by this character may be used one additional time, when applied to weapons or used to dose an enemy.",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Precise Aim",
+                "active": true,
+                "description": "Once per round, may perform a Precise Aim maneuver. Suffer strain up to ranks in Precise Aim and reduce target's Melee and Ranged Defense by that number.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Targeted Blow",
+                "active": true,
+                "description": "After making a successful attack, may spend 1 Story Point to add Agility in damage to one hit.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Dedication",
+                "active": false,
+                "description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ]
+    ]
+}

@@ -11,22 +11,25 @@
                 "description": "Remove SETB per rank of Street Smarts from Streetwise or checks.",
                 "bottomConnection": true,
                 "rightConnection": false
-            }, {
+            },
+            {
                 "talentName": "Black Market Contacts",
                 "active": true,
                 "description": "When purchasing or selling illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost or reducing the selling price by 50 percent of base cost per reduction.",
                 "bottomConnection": false,
                 "rightConnection": false
-            }, {
+            },
+            {
                 "talentName": "Indistinguishable",
                 "active": false,
                 "description": "Upgrade difficulty of checks to identify character once per rank of Indistinguishable.",
                 "bottomConnection": false,
                 "rightConnection": false
-            }, {
+            },
+            {
                 "talentName": "Lockbreaker",
                 "active": false,
-                "description": "",
+                "description": "Remove SETB per rank of Lockbreaker from checks made to disable a trap or open a locked door. ",
                 "bottomConnection": true,
                 "rightConnection": false
             }
@@ -38,19 +41,22 @@
                 "description": "Add BOOS per rank of Stalker to all Stealth and Coordination checks.",
                 "bottomConnection": true,
                 "rightConnection": true
-            }, {
+            },
+            {
                 "talentName": "Dodge",
                 "active": true,
                 "description": "When targeted by combat check, may perform a Dodge incidental to suffer a number of strain no greater than ranks of Dodge, then upgrade the difficulty of the check by that number.",
                 "bottomConnection": true,
                 "rightConnection": true
-            }, {
+            },
+            {
                 "talentName": "Grit",
                 "active": false,
-                "description": "",
+                "description": "Gain +1 strain threshold.",
                 "bottomConnection": true,
                 "rightConnection": true
-            }, {
+            },
+            {
                 "talentName": "Hidden Storage",
                 "active": false,
                 "description": "Gain hidden storage in vehicles or equipment that holds items with total encumbrance equal to ranks in Hidden Storage.",
@@ -65,19 +71,22 @@
                 "description": "Add BOOS per rank of Stalker to all Stealth and Coordination checks.",
                 "bottomConnection": true,
                 "rightConnection": true
-            }, {
+            },
+            {
                 "talentName": "Grit",
                 "active": false,
-                "description": "",
+                "description": "Gain +1 strain threshold.",
                 "bottomConnection": false,
                 "rightConnection": true
-            }, {
+            },
+            {
                 "talentName": "Rapid Reaction",
                 "active": true,
                 "description": "Suffer a number of strain to add an equal number of SUCC to initiative checks. Strain suffered cannot exceed ranks in Rapid Reaction.",
                 "bottomConnection": false,
                 "rightConnection": true
-            }, {
+            },
+            {
                 "talentName": "Shortcut",
                 "active": false,
                 "description": "During a chase; add BOOS per rank in Shortcut to any checks made to catch or escape an opponent.",
@@ -89,22 +98,25 @@
             {
                 "talentName": "Lockbreaker",
                 "active": false,
-                "description": "",
+                "description": "Remove SETB per rank of Lockbreaker from checks made to disable a trap or open a locked door. ",
                 "bottomConnection": true,
                 "rightConnection": false
-            }, {
+            },
+            {
                 "talentName": "Natural Rogue",
-                "active": false,
-                "description": "",
+                "active": true,
+                "description": "Once per session, may re-roll any 1 Stealth or Skullduggery check.",
                 "bottomConnection": true,
                 "rightConnection": true
-            }, {
+            },
+            {
                 "talentName": "Street Smarts",
                 "active": false,
                 "description": "Remove SETB per rank of Street Smarts from Streetwise or checks.",
                 "bottomConnection": true,
                 "rightConnection": false
-            }, {
+            },
+            {
                 "talentName": "Jump Up",
                 "active": false,
                 "description": "Once per round, may stand from seated or prone as an incidental.",
@@ -116,22 +128,25 @@
             {
                 "talentName": "Master of Shadows",
                 "active": true,
-                "description": "",
+                "description": "Once per round, suffer 2 strain to decrease difficulty of next Sneak or Skulduggery check by 1. ",
                 "bottomConnection": false,
                 "rightConnection": false
-            }, {
+            },
+            {
                 "talentName": "Dodge",
                 "active": true,
                 "description": "When targeted by combat check, may perform a Dodge incidental to suffer a number of strain no greater than ranks of Dodge, then upgrade the difficulty of the check by that number.",
                 "bottomConnection": false,
                 "rightConnection": true
-            }, {
+            },
+            {
                 "talentName": "Indistinguishable",
                 "active": false,
                 "description": "Upgrade difficulty of checks to identify character once per rank of Indistinguishable.",
                 "bottomConnection": false,
                 "rightConnection": false
-            }, {
+            },
+            {
                 "talentName": "Dedication",
                 "active": false,
                 "description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.",

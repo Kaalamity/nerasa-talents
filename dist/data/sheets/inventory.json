@@ -69,6 +69,20 @@
                     "fileName":"thief"
                 }
             ]
+        },
+        {
+            "className":"Leader",
+            "folderName":"leader",
+            "specs": [
+                {
+                    "specName":"Diplomat",
+                    "fileName":"diplomat"
+                },
+                {
+                    "specName":"Commander",
+                    "fileName":"commander"
+                }
+            ]
         }
     ]
 }

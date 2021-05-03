@@ -1,0 +1,158 @@
+{
+    "className": "Leader",
+    "specName": "Diplomat",
+    "classSkills": "Charm, Coercion, Cool, Discipline, Leadership, Perception",
+    "specSkills": "Charm, Cool, Discipline, Negotiation",
+    "talents": [
+        [
+            {
+                "talentName": "Plausible Deniability",
+                "active": false,
+                "description": "Remove SETB per rank of Plausible Deniability from Coercion and Deception checks.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Know Somebody",
+                "active": false,
+                "description": "Once per session, when attempting to purchase a legally available item, your character may use this talent to reduce its rarity by one per rank of Know Somebody.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "Gain +1 strain threshold.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Kill with Kindness",
+                "active": false,
+                "description": "Remove SETB per rank of Kill with Kindness from all Charm and Leadership checks.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Toughened",
+                "active": false,
+                "description": "Gain +2 wound threshold.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Know Somebody",
+                "active": false,
+                "description": "Once per session, when attempting to purchase a legally available item, your character may use this talent to reduce its rarity by one per rank of Know Somebody.\n",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Silver Tongue",
+                "active": true,
+                "description": "Once per session, spend 1 Story Point to suffer strain equal to ranks of Silver Tongue, to upgrade a Charm or Negotiation check by the same amount.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Nobody's Fool",
+                "active": false,
+                "description": "May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Grit",
+                "active": false,
+                "description": "Gain +1 strain threshold.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Smooth Talker",
+                "active": true,
+                "description": "When first acquired choose 1 skill; Charm, Coercion, Deception, or Negotiation. When making checks with that skill spend TRIU to gain additional SUCC equal to ranks in Smooth Talker.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Smooth Talker",
+                "active": true,
+                "description": "When first acquired choose 1 skill; Charm, Coercion, Deception, or Negotiation. When making checks with that skill spend TRIU to gain additional SUCC equal to ranks in Smooth Talker.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Plausible Deniability",
+                "active": false,
+                "description": "Remove SETB per rank of Plausible Deniability from Coercion and Deception checks.\n",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Nobody's Fool",
+                "active": false,
+                "description": "May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool.",
+                "bottomConnection": true,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Natural Charmer",
+                "active": true,
+                "description": "Once per session, may re-roll any 1 Charm skill check.\n",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Contingency Plan",
+                "active": true,
+                "description": "Spend 1 Story Point to recover strain equal to Cunning rating.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Silver Tongue",
+                "active": true,
+                "description": "Once per session, spend 1 Story Point to suffer strain equal to ranks of Silver Tongue, to upgrade a Charm or Negotiation check by the same amount.",
+                "bottomConnection": true,
+                "rightConnection": false
+            }
+        ],
+        [
+            {
+                "talentName": "Dedication",
+                "active": false,
+                "description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.\n",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Aggressive Negotiation",
+                "active": true,
+                "description": "After making a successful check that inflicts Strain in a Social Encounter, may spend 1 Story Point to add Presence in damage to the Strain dealt.",
+                "bottomConnection": false,
+                "rightConnection": false
+            },
+            {
+                "talentName": "Can't We Talk This Out?",
+                "active": true,
+                "description": "Make an opposed Charm or Deception check versus Discipline targeting a single non-nemesis target within medium Range. On success, the target cannot attack your character until the end of their next turn. May spend ADVTADVT to increase the duration by one turn. May spend TRIU to extend benefits to all of their allies.",
+                "bottomConnection": false,
+                "rightConnection": true
+            },
+            {
+                "talentName": "Steely Nerves",
+                "active": true,
+                "description": "Spend 1 Story Point to ignore effects of Critical Injuries on Willpower or Presence checks until the end of the encounter.",
+                "bottomConnection": false,
+                "rightConnection": false
+            }
+        ]
+    ]
+}
